@@ -129,7 +129,7 @@ h1{
 
 }
 /* Адаптация под мабильное */
-@media (max-width: 600px){
+@media (max-width: 1024px){
 	.logo{
 		margin: 0 auto;
 	}
