@@ -122,14 +122,14 @@ h1{
 }
 
 /* Адаптация под Таблет */
-@media (max-width: 1024px){
+@media (max-width: 1440px){
 	.how-find h1{
 		font-size: 100px;
 	}
 
 }
 /* Адаптация под мабильное */
-@media (max-width: 1024px){
+@media screen and (max-width: 1024px){
 	.logo{
 		margin: 0 auto;
 	}
