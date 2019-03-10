@@ -111,7 +111,7 @@ h1{
 /* Конец секции */
 
 
-@media screen and (device-width: 1280px){
+@media all and (max-width: 1280px){
 	.logo{
 		margin-left: 30px;
 	}
@@ -122,14 +122,14 @@ h1{
 }
 
 /* Адаптация под Таблет */
-@media screen and (device-width: 1024px){
+@media all and (max-width: 1024px){
 	.how-find h1{
 		font-size: 100px;
 	}
 
 }
 /* Адаптация под мабильное */
-@media screen and (device-width: 600px){
+@media all and (max-width: 600px){
 	.logo{
 		margin: 0 auto;
 	}
