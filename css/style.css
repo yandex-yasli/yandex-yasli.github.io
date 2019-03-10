@@ -130,7 +130,7 @@ h1{
 }
 /* Адаптация под мабильное */
 @media screen and (max-width: 650px){
-	.box-containre{
+	.body{
 	    max-width: 95%;
 	}
 	.logo{
