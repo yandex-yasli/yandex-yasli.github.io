@@ -129,7 +129,7 @@ h1{
 
 }
 /* Адаптация под мабильное */
-@media screen and (max-width: 1024px){
+@media screen and (min-width: 1024px){
 	.logo{
 		margin: 0 auto;
 	}
