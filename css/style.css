@@ -111,7 +111,7 @@ h1{
 /* Конец секции */
 
 
-@media (max-width: 1280px){
+@media screen and (min-width: 1280px){
 	.logo{
 		margin-left: 30px;
 	}
@@ -122,14 +122,17 @@ h1{
 }
 
 /* Адаптация под Таблет */
-@media (max-width: 1440px){
+@media screen and (min-width: 1440px){
 	.how-find h1{
 		font-size: 100px;
 	}
 
 }
 /* Адаптация под мабильное */
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 650px){
+	.box-containre{
+	    max-width: 95%;
+	}
 	.logo{
 		margin: 0 auto;
 	}
