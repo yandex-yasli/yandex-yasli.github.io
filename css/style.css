@@ -136,6 +136,8 @@ h1{
 	.logo{
 		margin: 0 auto;
 	}
+	.navigation{
+		display: none;
 	.wrapper{
 	   flex-direction: column;
 	}
