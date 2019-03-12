@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700" rel="stylesheet">
+	<meta name="Vladimir Sevastyanov" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<title>Я.Расписание</title>
+	<link rel="stylesheet" type="text/css" href="test.css">	
+</head>
+<body>
+	<header>
+		<div class="box-container">
+			<h1>Расписание</h1>
+		</div>
+	</header>
+	<div class="flex">
+		<section class="content">
+			<div class="box-container">
+				<dir class="wrapper">
+					<div class="text-centr">
+						<h1> Основы HTML/JS </h1>
+					</div>
+					<div id="token" class="menu">
+						<div class="title">Введение в CSS</div>
+						<ul>
+							<li class="text ">Дата 05.03.2019</li>
+							<li class="text">Примерные тезисы</li>
+							<li >отрисовка блоков по умолчанию, блочные/inline-block/инлайновые блоки</li>
+							<li >селекторы</li>
+							<li >каскадирование, приоритетность стилей, веса селекторов</li>
+							<li >величины и единицы измерения</li>
+							<li >оформление текста</li>
+							<li >блочная модель, display, width, height и компания</li>
+							<p><a href="file/CSS is Awesome.pptx" download>Скачать файл</a>
+						</ul>
+					</div>
+					<div id="token1" class="menu">
+						<div class="title">CSS, часть 2</div>
+						<ul>
+							<li class="text">Дата 07.03</li>
+							<li class="text">Примерные тезисы</li>
+							<li>позиционирование</li>
+							<li >флоаты</li>
+							<li >флексы</li>
+							<li >типовые задачи - центрирование, верстка колонок, карточек, пунктов меню</li>
+							<li >псевдоклассы</li>
+							<li >псевдоэлементы</li>
+							<li >семантическая разметка</li>
+							<p><a href="file/CSS_part2.pdf">Открыть файл в браузере</a>
+							<p><a href="file/CSS_part2.pdf" download>Скачать файл</a>
+						</ul>
+					</div>
+					<div id="token2" class="menu">
+						<div class="title">Верстка</div>
+						<ul>
+							<li class="text">Дата 12.03</li>
+							<li class="text">Примерные тезисы</li>
+							<li >Практический семинар</li>
+						</ul>
+					</div>
+					<div id="token3" class="menu">
+						<div class="title">Введение в JS</div>
+						<ul>
+							<li class="text">Дата 14.03</li>
+							<li class="text">Примерные тезисы</li>
+							<li>(возможно) разбор ДЗ по верстке</li>
+							<li>для чего? отличия разработки - реакция на события vs непрерывного выполнения</li>
+							<li>доставка в браузер - тег script</li>
+							<li>основы синтаксиса - обработка кода построчно интерпретатором, точки с запятой</li>
+							<li>типы данных: примитивные, массив, объект, оператор typeof</li>
+							<li>простые операторы: математика, склейка строк, булевские</li>
+							<li >переменные</li>
+							<li>alert/confirm/prompt/console.log</li>
+						</ul>
+					</div>
+					<div id="token4" class="menu">
+						<div class="title">Базовые конструкции языка</div>
+						<ul>
+							<li class="text">Дата 19.03</li>
+							<li class="text">Примерные тезисы</li>
+							<li>условные операторы if/switch/тернарник</li>
+							<li>циклы for/while/do..while</li>
+							<li>бесконечный цикл</li>
+							<li>break/continue</li>
+							<li>функции, аргументы, аргументы по умолчанию</li>
+							<li>основы замыканий (оч лайтово про доступность внешнего)</li>
+						</ul>
+					</div>
+					<div id="token5" class="menu">
+						<div class="title">Массивы</div>
+						<ul>
+							<li class="text">Дата 21.03</li>
+							<li class="text">Примерные тезисы</li>
+							<li>создание, обход элементов массива, добавление/удаление элементов</li>
+							<li>методы .map/.reduce/.forEach/.some/.every и так далее</li>
+							<li>алгоритмы/задачки про массивы</li>
+						</ul>
+					</div>
+					<div id="token6" class="menu">
+						<div class="title">Объекты</div>
+						<ul>
+							<li class="text">Дата 26.03</li>
+							<li class="text">Примерные тезисы</li>
+							<li>объектный литерал, поля, методы</li>
+							<li>this</li>
+							<li>функции-конструкторы</li>
+							<li>JSON</li>
+							<li>(возможно) es6 классы</li>
+							<li>объекты-обертки</li>
+						</ul>
+					</div>
+				</dir>
+			</div>
+		</section>
+
+		<section class="content">
+			<div class="box-container">
+				<dir class="wrapper">
+					<div class="text-centr">
+				<h1>JS в браузере</h1>
+			</div>
+			<div id="token7" class="menu background-color">
+				<div class="title">События</div>
+				<ul>
+					<li class="text ">Дата 28.03</li>
+					<li class="text">Примерные тезисы</li>
+					<li>click, contextmenu, mouseenter/mouseleave, mouseover/mouseout</li>
+					<li>keypress/keyup/keydown</li>
+					<li>input/submit/change</li>
+					<li>load/error/DOMContentLoaded</li>
+					<li>addEventListener</li>
+					<li>всплытие</li>
+					<li>примеры компонентов/виджетов на все события</li>
+				</ul>
+			</div>
+			<div id="token8" class="menu">
+				<div class="title">Работа с формами</div>
+				<ul>
+					<li class="text">Дата 02.04</li>
+					<li class="text">Примерные тезисы</li>
+					<li>nput text/checkbox/radio</li>
+					<li>(возможно) html5 inputы</li>
+					<li>select</li>
+					<li>textarea</li>
+					<li>валидация формы</li>
+					<li>обработка формы на клиенте</li>
+					<li>неэлементы форм</li>
+				</ul>
+			</div>
+			<div id="token9" class="menu background-color">
+				<div class="title">BOM и основы DOM</div>
+				<ul>
+					<li class="text">Дата 04.04</li>
+					<li class="text">Примерные тезисы</li>
+					<li>location</li>
+					<li>history</li>
+					<li>navigator (navigator.geolocation)</li>
+					<li>document.getElementById</li>
+					<li>объект-узел</li>
+					<li>innerHTML/innerText</li>
+					<li>работа с атрибутами</li>
+					<li>style</li>
+				</ul>
+			</div>
+			<div id="token10" class="menu">
+				<div class="title">Продвинутая работа с DOM</div>
+				<ul>
+					<li class="text">Дата 09.04</li>
+					<li class="text">Примерные тезисы</li>
+					<li>document.getElementsByClassName, HtmlCollection</li>
+					<li>querySelector/querySelectorAll, NodeList</li>
+					<li>document.body</li>
+					<li>основы синтаксиса - обработка кода построчно интерпретатором, точки с запятой</li>
+					<li>перемещение по DOM - children, siblings, parent</li>
+					<li>getComputedStyle</li>
+					<li>className/classList</li>
+				</ul>
+			</div>
+			<div id="token11" class="menu background-color">
+				<div class="title">Шаблонизация</div>
+				<ul>
+					<li class="text">Дата 11.04</li>
+					<li class="text">Примерные тезисы</li>
+					<li>склейка строк + innerHTML</li>
+					<li>createElement, appendChild, insertAfter</li>
+					<li>createDocumentFragment</li>
+					<li>ванильное создание верстки</li>
+					<li>двупроходная шаблонизация - пишем несложный шаблонизатор средствами браузера</li>
+				</ul>
+			</div>
+			<div id="token12" class="menu">
+				<div class="title">Массивы</div>
+				<ul>
+					<li class="text">Дата 21.03</li>
+					<li class="text">Примерные тезисы</li>
+					<li>создание, обход элементов массива, добавление/удаление элементов</li>
+					<li>методы .map/.reduce/.forEach/.some/.every и так далее</li>
+					<li>алгоритмы/задачки про массивы</li>
+				</ul>
+			</div>
+			<div id="token13" class="menu background-color">
+				<div class="title">AJAX</div>
+				<ul>
+					<li class="text">Дата 16.04</li>
+					<li class="text">Примерные тезисы</li>
+					<li>XMLHttpRequest</li>
+					<li>примеры - постраничность, обновление результатов матча, регистрация</li>
+					<li>(возможно) WebSocket</li>
+					<li>работа с API чего-нибудь</li>
+				</ul>
+			</div>
+			<div id="token14" class="menu">
+				<div class="title">JQuery</div>
+				<ul>s
+					<li class="text">Дата 18.04</li>
+					<li class="text">Примерные тезисы</li>
+					<li>jquery</li>
+				</ul>
+			</div>
+			<div id="token15" class="menu background-color">
+				<div class="title">Работа со сторонними библиотеками</div>
+				<ul>
+					<li class="text">Дата 23.04</li>
+					<li class="text">Примерные тезисы</li>
+					<li>В древние времена находили модули абы где, скачивали, пытались как-то вкрутить, все грустно</li>
+					<li>Теперь есть гитхаб, на котором есть все, куча документации и обновлений, йохохо</li>
+					<li>Как отличить классный модуль от так себе модуля</li>
+					<li>Как пользоваться документаций, как в общих чертах заставить модуль работать</li>
+					<li>Всякие классные модули по направленностям</li>
+				</ul>
+			</div>
+				</dir>
+			</div>
+		</section>
+
+
+		<section class="content">
+			<div class="box-container">
+				<dir class="wrapper">
+					<div class="text-centr">
+				<h1>Node JS и продвинутый JS</h1>
+			</div>
+			<div id="token16" class="menu background-color">
+				<div class="title text-centr">Введение в node.js</div>
+				<ul>
+					<li class="text ">Дата 25.04</li>
+					<li class="text">Примерные тезисы</li>
+					<li>откуда взялся</li>
+					<li>установка</li>
+					<li>запуск скриптов</li>
+					<li>обзорно про es6 let-const-стрелки</li>
+				</ul>
+			</div>
+			<div id="token17" class="menu">
+				<div class="title text-centr">Асинхронный код в JS</div>
+				<ul>
+					<li class="text">Дата 30.04</li>
+					<li class="text">Примерные тезисы</li>
+					<li>откуда берется асинхронность в однопоточном JS</li>
+					<li>коллбеки</li>
+					<li>промисы</li>
+				</ul>
+			</div>
+			<div id="token18" class="menu background-color">
+				<div class="title text-centr">NPM & Express</div>
+				<ul>
+					<li class="text">Дата 02.05 (это выходной, но мы занимаемся)</li>
+					<li class="text">Примерные тезисы</li>
+					<li>npm модули - поиск и использование</li>
+					<li>как написать и опубликовать свой модуль</li>
+					<li>простое HTTP приложение</li>
+					<li>миддлвары</li>
+					<li>объект-узел</li>
+					<li>статика</li>
+				</ul>
+			</div>
+			<div id="token19" class="menu">
+				<div class="title text-centr">Базы данных</div>
+				<ul>
+					<li class="text">Дата 07.05</li>
+					<li class="text">Тезисы</li>
+					<li>Зачем вообще</li>
+					<li>MongoDB</li>
+					<li>Подключаем в приложеньку</li>
+				</ul>
+			</div>
+			<div id="token20" class="menu background-color">
+				<div class="title text-centr">Практика. Написание приложения</div>
+				<ul>
+					<li class="text">Дата 09.05</li>
+					<li class="text">Лектор вакансия</li>
+				</ul>
+			</div>
+			</div>
+		</section>
+
+		<section class="content">
+			<div class="box-container">
+				<dir class="wrapper">
+					<div class="text-centr">
+						<h1>Инструменты и библиотеки</h1>
+					</div>
+					<div id="token21" class="menu background-color">
+						<div class="title">Git</div>
+						<ul>
+							<li class="text ">Дата 14.05</li>
+							<li class="text">Примерные тезисы</li>
+							<li>системы контроля версий - от папочек с кодом к умным программамя</li>
+							<li>git</li>
+							<li>что такое репозиторий что валяется в папочке .git</li>
+							<li>git init</li>
+							<li>git add ., git commit, что такое коммит</li>
+							<li>что такое ветки, git branch</li>
+							<li>git merge, git rebase, как гит вычисляет коммиты</li>
+							<li>конфликты, git status</li>
+							<li>общение с удаленным репозиторием (git push/git pull/git fetch)</li>
+							<li>консоль или клиенты?</li>
+						</ul>
+					</div>
+					<div id="token22" class="menu">
+						<div class="title">Тестирование - инфра</div>
+						<ul>
+							<li class="text">Дата 16.05</li>
+							<li class="text">Примерные тезисы</li>
+							<li>unit</li>
+							<li>ручное тестирование интерфейсов, ямлы</li>
+							<li>hermione</li>
+							<li>стабы</li>
+							<li>скриншоты</li>
+						</ul>
+					</div>
+					<div id="token23" class="menu background-color">
+						<div class="title">Инфраструктурные инструменты - инфра</div>
+						<ul>
+							<li class="text">Дата 21.05</li>
+							<li class="text">Примерные тезисы</li>
+							<li>гит-хуки</li>
+							<li>линтеры</li>
+							<li>csscomb</li>
+						</ul>
+					</div>
+					<div id="token24" class="menu">
+						<div class="title">CI - инфра</div>
+						<ul>
+							<li class="text">Дата 23.05</li>
+							<li class="text">Примерные тезисы</li>
+							<li>деплой на продакшн руками по фтп/гит клон на продакшн сервере/силами роботов</li>
+							<li>github хуки - узнают что пора</li>
+							<li>настройка выкладки на примере travis</li>
+						</ul>
+					</div>
+					<div id="token25" class="menu background-color">
+						<div class="title">BEM</div>
+						<ul>
+							<li class="text">Дата 28.05</li>
+						</ul>
+					</div>
+					<div id="token26" class="menu">
+						<div class="title">Сборка</div>
+						<ul>
+							<li class="text">Дата 30.05</li>
+							<li class="text">Примерные тезисы</li>
+							<li>Для чего? Примеры задач, где сборка помогает</li>
+							<li>Пример настройки webpack</li>
+						</ul>
+					</div>
+					<div id="token27" class="menu background-color">
+						<div class="title">Хакатоны</div>
+						<ul>
+							<li class="text">Предварительно</li>
+							<li class="text">Дата 25.05</li>
+							<li class="text">Дата 01.06</li>
+							<li class="text">Дата 08.06 + финальное демо</li>
+						</ul>
+					</div>
+					</div>
+		</section>
+	</div>
+	<footer>
+		<div class="box-container">
+			<div class="wup">
+				<p>Яндекс Ясли 2019 Devoloper`s WalkinDed & Quadref</p>
+			</div>
+		</div>
+	</footer>
+
+
+
+	<script type="text/javascript" src='Drop-down menu.js'></script>
+</body>
+</html>
