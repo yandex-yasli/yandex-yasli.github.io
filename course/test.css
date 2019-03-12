@@ -85,3 +85,14 @@ header, footer {
     height: 100%;
     align-items: center;
 }
+
+@media screen and (max-width: 650px){
+	header h1{
+		justify-content: center;
+	}
+	.wup{
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
+}
