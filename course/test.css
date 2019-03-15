@@ -28,6 +28,11 @@ header, footer {
     height: 70px;
 }
 
+a{
+	text-decoration: none;
+	color: #d33d2e;
+}
+
 .box-container{
 	max-width: 1070px;
 	height: 100%;
@@ -80,8 +85,8 @@ header, footer {
 	border-radius: 20px;
 	border: 0.5px solid;
 	width: 320px;
+    height: auto;	
     height: auto;
-
 }
 
 .wup{
@@ -103,3 +108,4 @@ header, footer {
 	}
 
 }
+
