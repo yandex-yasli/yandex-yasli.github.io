@@ -1,111 +1,110 @@
-*{
-	margin: 0pc;
-	padding: 0px; 
+* {
+  margin: 0pc;
+  padding: 0px;
 }
 
-body{
-	font-family: 'PT Sans Narrow', sans-serif;
+body {
+  font-family: "PT Sans Narrow", sans-serif;
 }
 
-header{
-	height: 70px;
-	background-color: #d33d2e;	
+header {
+  height: 70px;
+  background-color: #d33d2e;
 }
 
-header h1{
-	height: 100%;
-	display: flex;
-	align-items: center;
-	font-weight: 400;
-	color: #fff;
+header h1 {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  color: #fff;
 }
 
 footer {
-    background-color: #f0efed;
+  background-color: #f0efed;
 }
 
-header, footer {
-    height: 70px;
+header,
+footer {
+  height: 70px;
 }
 
-a{
-	text-decoration: none;
-	color: #d33d2e;
+a {
+  text-decoration: none;
+  color: #d33d2e;
 }
 
-.box-container{
-	max-width: 1070px;
-	height: 100%;
-	margin: 0 auto;
+.box-container {
+  max-width: 1070px;
+  height: 100%;
+  margin: 0 auto;
 }
-.flex{
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
+.flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-.content{
-	margin: 20px;
+.content {
+  margin: 20px;
 }
-.menu{
-	padding: 0 20px 10px 20px;
+.menu {
+  padding: 0 20px 10px 20px;
 }
-.menu ul{
-    margin: 0;
-    list-style: none;
-    padding-left: 10px;
-    display: none;
+.menu ul {
+  margin: 0;
+  list-style: none;
+  padding-left: 10px;
+  display: none;
 }
 
-.menu .title{
-	font-size: 20px;
-	cursor: pointer;
+.menu .title {
+  font-size: 20px;
+  cursor: pointer;
 }
 
 .menu .title::before {
-    content: '☞';
-    font-size: 80%;
-    color: green;
+  content: "☞";
+  font-size: 80%;
+  color: green;
 }
 
 .menu.open .title::before {
-    content: '☟';
+  content: "☟";
 }
 
 .menu.open ul {
-    display: block;
-}		
-.text-centr{
-	text-align: center;
+  display: block;
 }
-.text{
-	font-size: 18px;
+.text-centr {
+  text-align: center;
 }
-.wrapper{
-	box-shadow: 0 0 10px rgba(0,0,0,0.5);
-	border-radius: 20px;
-	border: 0.5px solid;
-	width: 320px;
-    height: auto;	
-    height: auto;
+.text {
+  font-size: 18px;
+}
+.wrapper {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  border: 0.5px solid;
+  width: 320px;
+  height: auto;
+  height: auto;
 }
 
-.wup{
-    display: flex;
+.wup {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+@media screen and (max-width: 650px) {
+  header h1 {
+    justify-content: center;
+    text-align: center;
+  }
+
+  footer .wup {
     height: 100%;
-    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
 }
-
-@media screen and (max-width: 650px){
-	header h1{
-		justify-content: center;
-		text-align: center;
-	}
-
-	footer .wup{
-		height: 100%;
-		justify-content: center;
-		text-align: center;
-	}
-
-}
-
