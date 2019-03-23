@@ -65,7 +65,7 @@ a {
 .menu .title::before {
   content: "☞";
   font-size: 80%;
-  color: green;
+  color: #d33d2e;
 }
 
 .menu.open .title::before {
